@@ -56,7 +56,7 @@ class Form extends Component {
                             <input
                                 className="form-control"
                                 name="qualification"
-                                placeholder="Enter Full Name"
+                                placeholder="Enter Qualification"
                                 value={this.state.qualification}
                                 onChange={this.onChangeHandle}
                             />    
@@ -68,7 +68,7 @@ class Form extends Component {
                             <input
                                 className="form-control"
                                 name="workexp"
-                                placeholder="Enter Full Name"
+                                placeholder="Enter Work Experience"
                                 value={this.state.workexp}
                                 onChange={this.onChangeHandle}
                             />    
@@ -80,7 +80,7 @@ class Form extends Component {
                             <input
                                 className="form-control"
                                 name="skills"
-                                placeholder="Enter Full Name"
+                                placeholder="Enter Skills"
                                 value={this.state.value}
                                 onChange={this.onChangeHandle}
                             />    
